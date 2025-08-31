@@ -1,4 +1,5 @@
-#include <vm.h>
+#include <kernel/vm.h>
+#include <armv6/scheduler.h>
 
 .global enable_interrupts
 enable_interrupts:

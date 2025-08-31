@@ -1,9 +1,9 @@
-#include <monitor.h>
-#include <console.h>
-#include <debug.h>
-#include <klib.h>
-#include <system.h>
-#include <types.h>
+#include <kernel/monitor.h>
+#include <kernel/console.h>
+#include <kernel/debug.h>
+#include <kernel/klib.h>
+#include <kernel/system.h>
+#include <kernel/types.h>
 
 static void print_args(struct DebugInfo *info, int *fp);
 

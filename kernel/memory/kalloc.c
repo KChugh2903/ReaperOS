@@ -1,6 +1,6 @@
-#include <kalloc.h>
-#include <vm.h>
-#include <types.h>
+#include <kernel/kalloc.h>
+#include <kernel/vm.h>
+#include <kernel/types.h>
 
 static struct PageList *page_list_prepend(struct PageList *page_list, char *page_addr);
 

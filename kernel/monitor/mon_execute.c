@@ -1,13 +1,13 @@
-#include <debug.h>
-#include <monitor.h>
-#include <console.h>
-#include <klib.h>
+#include <kernel/debug.h>
+#include <kernel/monitor.h>
+#include <kernel/console.h>
+#include <kernel/klib.h>
 #include <lib/base16.h>
 #include <lib/string.h>
-#include <proc.h>
-#include <kalloc.h>
-#include <system.h>
-#include <types.h>
+#include <kernel/proc.h>
+#include <kernel/kalloc.h>
+#include <kernel/system.h>
+#include <kernel/types.h>
 
 
 int mon_execute(int argc, char **argv) {

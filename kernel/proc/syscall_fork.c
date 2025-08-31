@@ -1,5 +1,6 @@
-#include <ksyscall.h>
-#include <proc.h>
+#include <stdint.h>
+#include <kernel/scheduler.h>
+#include <kernel/proc.h>
 #include <lib/string.h>
 
 int syscall_fork(void) {

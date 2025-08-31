@@ -1,8 +1,14 @@
-#include <console.h>
-#include <hardware.h>
-#include <irq.h>
+#include <kernel/console.h>
+#include <armv8-a/hardware.h>
+#include <kernel/irq.h>
 #include <lib/string.h>
-#include <vm.h>
+#include <kernel/vm.h>
+
+#ifdef AARCH_32
+#include <armv6/irq.h>
+#elif AARCH_64
+#include <armv8-a/irq.h>
+#endif
 
 #define RECEIVE_BUFFER_SIZE 16
 static char receive_buffer[RECEIVE_BUFFER_SIZE];

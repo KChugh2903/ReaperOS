@@ -5,7 +5,21 @@
         "proc.h": "c",
         "*.tcc": "c",
         "stdio.h": "c",
-        "syscall.h": "c"
+        "syscall.h": "c",
+        "kalloc.h": "c",
+        "ksyscall.h": "c",
+        "base16.h": "c",
+        "types.h": "c",
+        "monitor.h": "c",
+        "klib.h": "c",
+        "debug.h": "c",
+        "console.h": "c",
+        "irq.h": "c",
+        "hardware.h": "c",
+        "future": "c",
+        "vm.h": "c",
+        "compare": "c",
+        "format": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

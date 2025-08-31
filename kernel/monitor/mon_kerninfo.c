@@ -1,6 +1,6 @@
-#include <monitor.h>
-#include <klib.h>
-#include <types.h>
+#include <kernel/monitor.h>
+#include <kernel/klib.h>
+#include <kernel/types.h>
 
 int mon_kerninfo(int argc, char **argv) {
 	extern char entry[], etext[], edata[], kernel_end[];

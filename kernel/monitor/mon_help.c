@@ -1,7 +1,7 @@
-#include <monitor.h>
-#include <console.h>
-#include <klib.h>
-#include <types.h>
+#include <kernel/monitor.h>
+#include <kernel/console.h>
+#include <kernel/klib.h>
+#include <kernel/types.h>
 
 int mon_help(int argc, char **argv) {
 	uint32_t i = 0;

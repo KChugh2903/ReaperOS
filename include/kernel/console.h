@@ -30,6 +30,8 @@ static const struct SpecialKeySequence SPECIAL_KEY_SEQUENCES[] = {
 };
 
 void console_init(void);
+void console_help(void);
+void console_help_led(void);
 void kputch(int c);
 int kgetch(void);
 

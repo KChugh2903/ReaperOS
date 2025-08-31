@@ -1,10 +1,10 @@
-#include <kalloc.h>
-#include <ksyscall.h>
+#include <kernel/kalloc.h>
+#include <kernel/ksyscall.h>
 #include <lib/base16.h>
 #include <lib/string.h>
-#include <proc.h>
-#include <system.h>
-#include <vm.h>
+#include <kernel/proc.h>
+#include <armv8-a/system.h>
+#include <kernel/vm.h>
 
 static void decode_process_image(const char **program, char ***image,
 				 int *image_page_count);

@@ -1,7 +1,7 @@
 OS = reaperos
 
 ifndef arch
-        arch = raspberrypi
+        arch = armv8-a
 endif
 
 include arch/$(arch)/config.mk
@@ -38,7 +38,7 @@ $(OS).bin: $(OBJS) $(OS).ld lib/libreaperos.a
 	$(LD) -L arch/$(arch) -T $(OS).ld $(OBJS) lib/libreaperos.a -o $(OS).elf
 	$(OBJCOPY) -O binary $(OS).elf $(OS).bin
 	$(OBJDUMP) -D $(OS).elf > $(OS).asm
-ifeq ($(arch),raspberrypi)
+ifeq ($(arch),armv8-a)
 	cp reaperos.bin /run/media/hadi/boot/kernel.img
 endif
 

@@ -1,9 +1,9 @@
-#include <monitor.h>
-#include <kalloc.h>
-#include <klib.h>
+#include <kernel/monitor.h>
+#include <kernel/kalloc.h>
+#include <kernel/klib.h>
 #include <lib/string.h>
-#include <system.h>
-#include <types.h>
+#include <kernel/system.h>
+#include <kernel/types.h>
 
 static void print_cpu_id(void);
 static void print_cache_type(void);

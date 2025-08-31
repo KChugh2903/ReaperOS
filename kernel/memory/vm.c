@@ -1,10 +1,11 @@
-#include <vm.h>
-#include <hardware.h>
+#include <kernel/vm.h>
 #include <lib/string.h>
-#include <kalloc.h>
-#include <klib.h>
-#include <system.h>
-#include <types.h>
+#include <kernel/kalloc.h>
+#include <kernel/klib.h>
+#include <kernel/system.h>
+#include <kernel/types.h>
+
+#include <armv8-a/hardware.h>
 
 static void map_page(struct SectionTableEntry *vm, uint32_t physical, uint32_t virtual, int access_perms);
 

@@ -1,4 +1,4 @@
-#include <vm.h>
+#include <kernel/vm.h>
 __attribute__((__aligned__(SECTION_TABLE_ALIGNMENT)))
 uint32_t startup_sectiontable[4096] = {
 	2 | (2 << 10) | (0 << 20), 2 | (2 << 10) | (1 << 20),

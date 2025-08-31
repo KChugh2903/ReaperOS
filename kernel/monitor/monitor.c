@@ -1,8 +1,8 @@
-#include <monitor.h>
-#include <klib.h>
+#include <kernel/monitor.h>
+#include <kernel/klib.h>
 #include <lib/stdio.h>
 #include <lib/string.h>
-#include <types.h>
+#include <kernel/types.h>
 
 static void tokenize_command(char *command_string, int *argc_pointer, char **argv);
 static command_handler get_command_handler(const char *command_name);

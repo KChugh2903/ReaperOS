@@ -16,6 +16,8 @@ int strncmp(const char *s1, const char *s2, size_t n);
 char *strchr(const char *str, int character);
 char *strtok(char *str, const char *delimiters);
 
+void strrev(char *s);
+
 /* other functions */
 void *memset(void *target, int c, size_t len);
 size_t strlen(const char *str);
