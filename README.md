@@ -225,31 +225,6 @@ proc_dump_context(process);
 - **Hardware IRQs**: Device interrupt support
 - **System Calls**: Software interrupt interface
 
-## 🤝 Contributing
-
-We welcome contributions to ReaperOS! Here's how to get started:
-
-### Development Setup
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Make your changes following our coding standards
-4. Test on multiple architectures when possible
-5. Submit a pull request
-
-### Coding Standards
-- **C Style**: Follow Linux kernel coding style
-- **Assembly**: Use consistent indentation and comments
-- **Documentation**: Update headers and README for new features
-- **Testing**: Verify builds across supported architectures
-
-### Areas for Contribution
-- [ ] Network stack implementation
-- [ ] File system support
-- [ ] Additional device drivers
-- [ ] Power management
-- [ ] SMP (multi-core) support
-- [ ] Security enhancements
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
